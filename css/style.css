@@ -10,10 +10,10 @@
 html {
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 body {
-    min-width: 850px;
     margin: 0px;
     padding: 0px;
     font-size: 16px;
@@ -21,7 +21,7 @@ body {
 }
 
 #main {
-    margin-left: 220px;
+    margin-left: 250px;
 }
 
 h1 {
@@ -33,11 +33,17 @@ h1 {
 }
 
 h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #3E1255;
+}
+
+h3 {
     font-size: 30px;
     color: #9874AA;
 }
 
-h3 {
+h4 {
     margin: 0;
     padding: 7px;
     font-size: 25px;
@@ -46,7 +52,7 @@ h3 {
 /* NAVIGATION */
 #navbar {
     margin-left: -40px;
-    padding-top: 100px;
+    padding-top: 130px;
     height: 100%;
     width: 220px;
     position: fixed;
@@ -68,9 +74,16 @@ h3 {
     display: block;
 }
 
+.active {
+    border-left: 4px solid;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
 #navbar li a:hover {
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .navbar-nav {
@@ -83,12 +96,16 @@ h3 {
      color: rgba(255, 255, 255, 0.8);
 }
 
-.navbar-nav a img {
+#page-logo a {
+    padding-left: 40px;
+}
+
+#page-logo a img {
     width: 130px;
     border: 3px solid #9874AA;
 }
 
-.navbar-nav a img:hover {
+#page-logo a img:hover {
     cursor: pointer;
     border: 3px solid rgba(255, 255, 255, 0.8);
 }
@@ -100,6 +117,7 @@ h3 {
 /* SECTION ABOUT */
 #section-about {
     padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .email {
@@ -110,7 +128,7 @@ h3 {
 
 .email:hover {
     color: #774A8E;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .content p {
@@ -133,9 +151,47 @@ h3 {
 /* SECTION EDUCATION */
 #section-education {
     padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* SECTION PROJECTS */
+#section-projects {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* SECTION SKILLS */
+#section-skills {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* SECTION EXPERIENCE */
+#section-experience {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* SECTION INTERESTS */
+#section-interests {
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 /* FOOTER */
 footer {
-    background-color: #3E1255;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin-left: -70px;
+}
+
+.email2 {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #868e96;
+}
+
+.email2:hover {
+    color: #774A8E;
 }
