@@ -8,12 +8,9 @@ $(window).on("load", function() {
     $("#navbar li a").each(function() {
         var sectionLink = $(this);
         var section = $(sectionLink.attr("href"));
-        if (section.position().top <= currentPos && sectionLink.offset().top + section.height() >= currentPos) {
+        if (section.position().top <= currentPos + 50) {
             $("#navbar li a").removeClass("active");
             sectionLink.addClass("active");
-        }
-        else {
-            sectionLink.removeClass("active");
         }
     });
 });
@@ -25,12 +22,9 @@ $(window).on("scroll", function() {
     $("#navbar li a").each(function() {
         var sectionLink = $(this);
         var section = $(sectionLink.attr("href"));
-        if (section.position().top <= currentPos && sectionLink.offset().top + section.height() >= currentPos) {
+        if (section.position().top <= currentPos + 50) {
             $("#navbar li a").removeClass("active");
             sectionLink.addClass("active");
-        }
-        else {
-            sectionLink.removeClass("active");
         }
     });
 });
