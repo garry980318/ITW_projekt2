@@ -1,1 +1,141 @@
-/* Author: Radoslav Grenčík <xgrenc00@stud.fit.vutbr.cz> */
+/* Author: Radoslav Grenčík, xgrenc00@stud.fit.vutbr.cz */
+
+/* * { outline: 1px solid red; } */
+
+* {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: 850px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: #868e96;
+}
+
+#main {
+    margin-left: 220px;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #774A8E;
+}
+
+h2 {
+    font-size: 30px;
+    color: #9874AA;
+}
+
+h3 {
+    margin: 0;
+    padding: 7px;
+    font-size: 25px;
+}
+
+/* NAVIGATION */
+#navbar {
+    margin-left: -40px;
+    padding-top: 100px;
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    text-align: center;
+    background-color: #3E1255;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar li a {
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+#navbar li a:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.navbar-nav a {
+     color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-nav a img {
+    width: 130px;
+    border: 3px solid #9874AA;
+}
+
+.navbar-nav a img:hover {
+    cursor: pointer;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+/* SECTION ABOUT */
+#section-about {
+    padding-top: 150px;
+}
+
+.email {
+    font-size: 25px;
+    text-decoration: none;
+    color: #868e96;
+}
+
+.email:hover {
+    color: #774A8E;
+    font-weight: bold;
+}
+
+.content p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.social a img {
+    width: 45px;
+    padding: 5px;
+}
+
+.social a img:hover {
+    filter: brightness(0) saturate(100%) invert(12%) sepia(38%) saturate(3287%) hue-rotate(260deg) brightness(98%) contrast(105%);
+}
+
+/* SECTION EDUCATION */
+#section-education {
+    padding-top: 150px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #3E1255;
+}
