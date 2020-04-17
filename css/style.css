@@ -49,6 +49,12 @@ h4 {
     font-size: 25px;
 }
 
+h5 {
+    padding: 7px;
+    font-size: 25px;
+    color: #774A8E;
+}
+
 /* NAVIGATION */
 #navbar {
     margin-left: -40px;
@@ -72,13 +78,6 @@ h4 {
     padding: 20px;
     text-decoration: none;
     display: block;
-}
-
-.active {
-    border-left: 4px solid;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
 }
 
 #navbar li a:hover {
@@ -112,6 +111,13 @@ h4 {
 
 .rounded-circle {
     border-radius: 50%;
+}
+
+.active {
+    border-left: 4px solid;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
 }
 
 /* SECTION ABOUT */
@@ -154,6 +160,70 @@ h4 {
     padding-bottom: 150px;
 }
 
+.tabs {
+    padding: 0;
+}
+
+.tabs li {
+    display: inline;
+    padding-right: 15px;
+}
+
+.tabs li a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    color: #868e96;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #774A8E;
+}
+
+#content-education {
+    padding-top: 100px;
+}
+
+#content-education img {
+    width: 300px;
+}
+
+#content-education img:hover {
+    cursor: pointer;
+    filter: contrast(160%);
+}
+
+.column {
+    float: left;
+    width: 25%;
+    min-width: 350px;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    min-width: 500px;
+}
+
+#content-education:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.active2 {
+    border-bottom: 1px solid;
+    font-size: 18px;
+    color: #774A8E;
+}
+
 /* SECTION PROJECTS */
 #section-projects {
     padding-top: 150px;
@@ -193,5 +263,6 @@ footer {
 }
 
 .email2:hover {
+    cursor: pointer;
     color: #774A8E;
 }
