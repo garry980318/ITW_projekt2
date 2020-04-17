@@ -20,6 +20,10 @@ body {
     color: #868e96;
 }
 
+.dark-skin {
+    background-color: #0a0a0f;
+}
+
 #main {
     margin-left: 250px;
 }
@@ -35,7 +39,8 @@ h1 {
 h2 {
     font-size: 35px;
     text-transform: uppercase;
-    color: #3E1255;
+    color: #592A71;
+    font-weight: 550;
 }
 
 h3 {
@@ -107,6 +112,11 @@ h5 {
 #page-logo a img:hover {
     cursor: pointer;
     border: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+#skin-changer {
+    padding-left: 35px;
+    padding-top: 250px;
 }
 
 .rounded-circle {
@@ -265,4 +275,9 @@ footer {
 .email2:hover {
     cursor: pointer;
     color: #774A8E;
+}
+
+/* MOBILE CSS */
+@media screen and (max-width: 576px) {
+
 }
