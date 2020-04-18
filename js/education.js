@@ -12,7 +12,7 @@ function university() {
         '<h3>Fakulta informačných technológií VUT v Brne</h3>'+
         '<h5>Informačné technológie</h5>'+
         '<h4>GPA: 2.3</h4>'+
-        '<h4>September 2017 - Today</h4>'+
+        '<h4>September 2017 - Present</h4>'+
     '</div>';
     html = $.parseHTML(html);
     $("#content-education").empty();
@@ -27,7 +27,7 @@ function highschool() {
         '</a>'+
     '</div>'+
     '<div class="column2">'+
-        '<h3>Stredná priemyselná škola Jozefa Murgaša, Banská Bystrica</h3>'+
+        '<h3>Stredná priemyselná škola Jozefa Murgaša</h3>'+
         '<h5>Informačné a sieťové technológie</h5>'+
         '<h4>GPA: 1.3</h4>'+
         '<h4>September 2014 - June 2017</h4>'+
