@@ -149,7 +149,6 @@ h5 {
 
 .content p {
     padding-top: 40px;
-    /* padding-bottom: 40px; */
     width: 70%;
     font-size: 20px;
     text-align: justify;
@@ -180,7 +179,7 @@ h5 {
 
 .tabs li {
     display: inline;
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 .tabs li a {
@@ -202,10 +201,11 @@ h5 {
 }
 
 #content-education {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #content-education img {
+    margin-top: 25px;
     width: 300px;
 }
 
@@ -216,14 +216,14 @@ h5 {
 
 .column {
     float: left;
-    width: 25%;
+    width: 20%;
     min-width: 350px;
 }
 
 .column2 {
     float: left;
     width: 50%;
-    min-width: 500px;
+    min-width: 400px;
 }
 
 #content-education:after {
@@ -307,6 +307,151 @@ footer {
 }
 
 /* MOBILE CSS */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
+    h3 {
+        width: 95%;
+    }
 
+    /* SECTION ABOUT */
+    .content p {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #main {
+        margin-left: 25px;
+    }
+
+    /* NAVBAR */
+    #navbar {
+        height: 60px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: fixed;
+    }
+
+    #navbar li {
+        display: none;
+    }
+
+    #navbar li a {
+        padding: 15px 15px;
+        text-decoration: none;
+        display: block;
+    }
+
+    #navbar li a:hover {
+        cursor: pointer;
+        font-weight: bolder;
+    }
+
+    .navbar-nav {
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+
+    .navbar-nav a {
+         color: rgba(255, 255, 255, 0.8);
+    }
+
+    #page-logo a {
+    }
+
+    #page-logo a img {
+        position: fixed;
+        left: 0;
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 40px;
+        border: 3px solid #9874AA;
+    }
+
+    #page-logo a img:hover {
+        cursor: pointer;
+        border: 3px solid rgba(255, 255, 255, 0.8);
+    }
+
+    #skin-changer {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: -230px;
+        margin-right: 10px;
+    }
+
+    /* SECTION ABOUT */
+    #section-about {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .content p {
+        width: 95%;
+    }
+
+    /* SECTION EDUCATION */
+    #section-education {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .tabs {
+        padding: 0;
+        width: 250px;
+    }
+
+    .tabs li {
+        display: inline;
+        padding-right: 30px;
+    }
+
+    .tabs li a {
+        text-decoration: none;
+        display: block;
+    }
+
+    #content-education {
+        padding-top: 20px;
+    }
+
+    #content-education img {
+        width: 250px;
+    }
+
+    /* SECTION PROJECTS */
+    #section-projects {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* SECTION SKILLS */
+    #section-skills {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* SECTION EXPERIENCE */
+    #section-experience {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* SECTION INTERESTS */
+    #section-interests {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 0px;
+        width: 95%;
+    }
 }
