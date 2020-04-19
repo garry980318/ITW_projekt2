@@ -220,13 +220,14 @@ h5 {
 .column {
     float: left;
     width: 20%;
-    min-width: 350px;
+    min-width: 300px;
 }
 
 .column2 {
     float: left;
     width: 50%;
-    min-width: 400px;
+    min-width: 300px;
+    padding-left: 20px;
 }
 
 #content-education:after {
