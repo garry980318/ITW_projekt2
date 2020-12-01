@@ -1,1 +1,2 @@
-# ITW_projekt2
+# ITW projekt 2
+Simple personal profile webpage.
